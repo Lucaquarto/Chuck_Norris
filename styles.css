@@ -1,0 +1,13 @@
+/* Impostazioni di base per l'intero corpo della pagina */
+body {
+    font-family: Arial, sans-serif;  /* Imposta il carattere principale a Arial o un font sans-serif generico */
+    text-align: center;              /* Centra tutti gli elementi nel corpo della pagina */
+    margin: 50px;                    /* Aggiunge un margine di 50px su tutti i lati della pagina */
+}
+
+/* Stile specifico per il paragrafo che contiene la battuta */
+#joke {
+    margin-top: 20px;                /* Aggiunge uno spazio di 20px sopra il paragrafo della battuta */
+    font-size: 20px;                 /* Imposta la dimensione del testo a 20px */
+    font-weight: bold;               /* Rende il testo della battuta in grassetto */
+}
