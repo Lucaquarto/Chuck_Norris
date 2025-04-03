@@ -1,10 +1,10 @@
 // Ottiene riferimenti agli elementi HTML tramite i loro ID
-const categorySelect = document.getElementById("category");
-const jokeText = document.getElementById("joke");
-const loadJokeButton = document.getElementById("loadJoke");
+let categorySelect = document.getElementById("category");
+let jokeText = document.getElementById("joke");
+let loadJokeButton = document.getElementById("loadJoke");
 
 // Array contenente tutte le categorie di battute disponibili sull'API
-const categoriesList = [
+let categoriesList = [
     "animal", "career", "celebrity", "dev", "explicit", "fashion", "food", "history",
     "money", "movie", "music", "political", "religion", "science", "sport", "travel"
 ];
